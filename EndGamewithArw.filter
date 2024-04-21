@@ -6,7 +6,7 @@
 //
 // =============================================================================================
 
-Attribute[Author]: Synpoo
+Attribute[Author]: Synpoo (Freshed)
 Attribute[Name]: Endgame Filter
 Attribute[Version]: 1.6b
 Attribute[Date]: Apr 02 2024
@@ -53,7 +53,7 @@ ItemDisplay[gps OR ops OR gpm OR opm OR gpl OR opl]:
 ItemDisplay[key OR vps OR yps OR wms OR tsc OR isc]:
 ItemDisplay[hp5]: 
 ItemDisplay[mp5]: 
-ItemDisplay[rvl]: %BORDER(155,4)%%PURPLE%Full
+ItemDisplay[rvl]: %BORDER(155,4)%%PURPLE%100
 
 // =============================================================
 // GEMS
@@ -150,6 +150,12 @@ ItemDisplay[UNI 7s8 ETH !ID]: %!Unique!% <<Unique>>
 // SET
 // nats wep
 ItemDisplay[SET 7qr !ETH !ID]: %!Set!% <<Set>>
+// ------------------------------------------------------------------------------------------------ Natalya's Totem
+ItemDisplay[xh9 SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Natalya's 
+// ------------------------------------------------------------------------------------------------ Natalya's Shadow
+ItemDisplay[ucl SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Natalya's %RED%*
+// ------------------------------------------------------------------------------------------------ Natalya's Soul
+ItemDisplay[xmb SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %RED%* %GREEN%%NAME% %DGREEN%Natalya's %RED%*
 
 // RUNEWORD BASES
 // 4os GMB/MB+3 skill
@@ -187,6 +193,9 @@ ItemDisplay[UNI (ulc OR ci3) !ETH !ID]: %!Unique!% <:Unique: NotificationSound =
 ItemDisplay[UNI uar !ID]: %!Unique!% <:Unique: NotificationSound = Sound6>
 // vmagi, shaft, skullders
 ItemDisplay[UNI (xea OR xhn OR xpl) !ETH !ID]: %!Unique!% <<Unique>>
+// ------------------------------------------------------------------------------------------------ Leviathan
+ItemDisplay[uld UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* Leviathan *
+ItemDisplay[uld UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* %GRAY%ETH %RED%Leviathan * 
 // arkaines, gbane, tgods, razortail
 ItemDisplay[UNI (upl OR utu OR zhb OR zvb) !ETH !ID]: %!Unique!% <<Unique>>
 // silkweave, war trav, dracs, steelrend
